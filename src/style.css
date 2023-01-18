@@ -1,0 +1,15 @@
+.app {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+}
+.form input {
+  margin-bottom: 20px;
+}
